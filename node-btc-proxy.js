@@ -11,7 +11,7 @@ var certificate = fs.readFileSync(settings.node_ssl_cert_name).toString();
 var credentials = {key: privateKey, cert: certificate};
 var server = express();
 
-server.post('/btc', function(request, response)
+server.post('/', function(request, response)
 {	
 	var proxy_request = http.request({host: settings.RPC.host, port: settings.RPC.port, method: request.method, headers: request.headers}, function(res)
 	{
