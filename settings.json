@@ -1,0 +1,13 @@
+{
+	"RPC": { 
+		"host": "localhost",
+		"port": 8332,
+		"user": "your-btc-rpc-username",
+		"password": "your-btc-rpc-password"
+	},
+	"node_host": "hostname.this-server-listens.to",
+	"node_port": 8080,
+	"node_ssl_key_name": "ssl-key.pem",
+	"node_ssl_cert_name": "ssl-cert.pem",
+	"labelsmode": 1
+}
